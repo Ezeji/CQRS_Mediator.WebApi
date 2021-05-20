@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS_Mediator.WebApi", "CQRS_Mediator.WebApi.csproj", "{840DA0AF-A4E3-4D42-A8C5-AD8CA02646A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedTrackerAPI", "..\MedTrackerAPI\MedTrackerAPI.csproj", "{FBA093F4-E0CD-4CC8-B290-744AE5DFB761}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{840DA0AF-A4E3-4D42-A8C5-AD8CA02646A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840DA0AF-A4E3-4D42-A8C5-AD8CA02646A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840DA0AF-A4E3-4D42-A8C5-AD8CA02646A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840DA0AF-A4E3-4D42-A8C5-AD8CA02646A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA093F4-E0CD-4CC8-B290-744AE5DFB761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA093F4-E0CD-4CC8-B290-744AE5DFB761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA093F4-E0CD-4CC8-B290-744AE5DFB761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA093F4-E0CD-4CC8-B290-744AE5DFB761}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B87FB41-6A2A-41CA-B931-891A903DDD5D}
+	EndGlobalSection
+EndGlobal
